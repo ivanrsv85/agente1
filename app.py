@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
 
-API_URL = "https://your-app.onrender.com/chat"  # Replace with your API URL
+API_URL = "https://api1-zv36.onrender.com"  # Replace with your API URL
 
 st.set_page_config(page_title="💬 Mortgage Chatbot", layout="wide")
-st.title("🏡 Mortgage Broker Chatbot")
+st.title("🏡 Habicredit Chatbot")
 
 query = st.text_input("Ask a question about mortgage regulations, commissions, or processes:")
 
